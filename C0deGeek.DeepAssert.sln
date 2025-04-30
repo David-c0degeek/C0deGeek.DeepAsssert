@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepAssert", "sln\DeepAssert\DeepAssert.csproj", "{D804B167-B4DF-4626-8DFE-B7B7A06576D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sln", "sln", "{73BF266A-E6A2-407D-8C32-230A2F1B33DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{69A12A8A-F8AB-44AF-97D0-611A2F3E8F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepAssert.Tests", "test\DeepAssert.Tests\DeepAssert.Tests.csproj", "{44D6AFCF-D9E2-46AE-AC4E-F7ACA25401FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D804B167-B4DF-4626-8DFE-B7B7A06576D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D804B167-B4DF-4626-8DFE-B7B7A06576D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D804B167-B4DF-4626-8DFE-B7B7A06576D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D804B167-B4DF-4626-8DFE-B7B7A06576D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D6AFCF-D9E2-46AE-AC4E-F7ACA25401FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D6AFCF-D9E2-46AE-AC4E-F7ACA25401FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D6AFCF-D9E2-46AE-AC4E-F7ACA25401FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D6AFCF-D9E2-46AE-AC4E-F7ACA25401FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D804B167-B4DF-4626-8DFE-B7B7A06576D4} = {73BF266A-E6A2-407D-8C32-230A2F1B33DC}
+		{44D6AFCF-D9E2-46AE-AC4E-F7ACA25401FA} = {69A12A8A-F8AB-44AF-97D0-611A2F3E8F42}
+	EndGlobalSection
+EndGlobal
