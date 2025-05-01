@@ -27,7 +27,6 @@
         <RepositoryUrl>https://github.com/David-c0degeek/C0deGeek.DeepAsssert</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageReadmeFile>LICENSE.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
         <!-- Source Link -->
