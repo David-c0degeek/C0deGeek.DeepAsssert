@@ -27,7 +27,8 @@
         <RepositoryUrl>https://github.com/David-c0degeek/C0deGeek.DeepAsssert</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>LICENSE.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
         <!-- Source Link -->
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -40,6 +41,12 @@
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="..\..\C0deGeek.DeepAssert.Icon.jpg" Pack="true" PackagePath="\" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\LICENSE.MD" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    
     <ItemGroup>
       <PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
     </ItemGroup>
